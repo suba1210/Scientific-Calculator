@@ -2,13 +2,12 @@ body{
     font-family: 'Vollkorn', serif;
     background: linear-gradient(to bottom right,rgb(231, 129, 231), rgb(174, 237, 248)) no-repeat center center fixed;
 }
-
-
 table{
-    max-width: 700px;
+    max-width: 500px;
     width:90%;
     margin:auto;
 }
+
 input[type="button"]
 {
 background-color:rgb(132, 152, 252);
@@ -16,7 +15,7 @@ color:rgb(252, 246, 246);
 font-weight: bolder;
 border: solid black 2px;
 width:100%;
-padding:10px;
+padding:10px 4px 10px 4px ;
 border-radius: 8px;
 }
 
