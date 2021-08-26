@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1 style='color:rgb(83, 43, 226);text-align: center;' >Online Calculator</h1>
+
+    <br>
+    <form name="result" >
+        <table>
+            <tr>
+               <td colspan="3"><input type="text" name="output" placeholder="" ></td>       
+               <td><input type="button" value="DEL" onclick="cut()" /> </td>
+            </tr>
+            <tr>
+                <td><input type="button" value=" inverse " onclick="inverse()"></td>
+                <td><input type="button" value=" log " onclick="log()"></td>
+                <td><input type="button" value=" ln " onclick="ln()"></td>
+                <td><input type="button" value="AC" onclick="document.result.output.value =''" ></td>
+            </tr>
+            <tr>
+                <td><input type="button" value=" exp " onclick="exp()"></td>
+                <td><input type="button" value=" square " onclick="square()"></td>
+                <td><input type="button" value=" cube " onclick="cube()"></td>
+                <td><input type="button" value="√" onclick="sqrt()"></td>
+            </tr>
+    
+            <tr>
+                <td><input type="button" value="cosec" onclick="cosec()"></td>
+                <td><input type="button" value="sec" onclick="sec()"></td>
+                <td><input type="button" value="cot" onclick="cot()"></td>
+                <td><input type="button" value=" ! " onclick="Factorial()"></td>
+    
+            </tr>
+    
+            <tr>
+                <td><input type="button" value=" sin " onclick="sin()"></td>
+                <td><input type="button" value=" cos " onclick="cos()"></td>
+                <td><input type="button" value=" tan " onclick="tan()"></td>
+                <td><input type="button" value=" π " onclick="document.result.output.value+='π'" ></td>
+    
+            </tr>
+    
+    
+            <tr>
+    
+                <td><input type="button" value="(" onclick="document.result.output.value+='('" /> </td>
+                <td><input type="button" value=")" onclick="document.result.output.value+=')'" /> </td>
+                <td><input type="button" value="%" onclick="document.result.output.value+='%'"/> </td>
+                <td><input type="button" value="^" onclick="document.result.output.value+='^'"/> </td>
+            </tr>
+    
+            <tr>
+    
+               <td><input type="button" value="1" onclick="document.result.output.value+='1'" /> </td>
+               <td><input type="button" value="2" onclick="document.result.output.value+='2'" /> </td>
+               <td><input type="button" value="3" onclick="document.result.output.value+='3'"/> </td>
+               <td><input type="button" value="/" onclick="document.result.output.value+='/'" /> </td>
+            </tr>
+            <tr>
+               <td><input type="button" value="4"  onclick="document.result.output.value+='4'"/> </td>
+               <td><input type="button" value="5"  onclick="document.result.output.value+='5'" /> </td>
+               <td><input type="button" value="6"  onclick="document.result.output.value+='6'"/> </td>
+               <td><input type="button" value="-"  onclick="document.result.output.value+='-'"/> </td>
+            </tr>
+            <tr>
+               <td><input type="button" value="7"  onclick="document.result.output.value+='7'"/> </td>
+               <td><input type="button" value="8"  onclick="document.result.output.value+='8'"/> </td>
+               <td><input type="button" value="9"  onclick="document.result.output.value+='9'"/> </td>
+               <td><input type="button" value="+"  onclick="document.result.output.value+='+'"/> </td>
+            </tr>
+            <tr>
+               <td><input type="button" value="."  onclick="document.result.output.value+='.'"/> </td>
+               <td><input type="button" value="0"  onclick="document.result.output.value+='0'"/> </td>
+               <td><input type="button" value="=" onclick="calculate1()" /> </td>
+               <td><input type="button" value="*"  onclick="document.result.output.value+='*'"/> </td>
+            </tr>
+        </table>    
+    
+    </form>
+    
+    
+
+
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+body{
+    font-family: 'Vollkorn', serif;
+    background: linear-gradient(to bottom right,rgb(231, 129, 231), rgb(174, 237, 248)) no-repeat center center fixed;
+}
+
+
+table{
+    max-width: 700px;
+    width:90%;
+    margin:auto;
+}
+input[type="button"]
+{
+background-color:rgb(132, 152, 252);
+color:rgb(252, 246, 246);
+font-weight: bolder;
+border: solid black 2px;
+width:100%;
+padding:10px;
+border-radius: 8px;
+}
+
+input[type="text"]
+{
+background-color:white;
+border: solid black 2px;
+width:100%;
+padding:10px;
+border-radius: 8px;
+font-weight: bolder;
+}
