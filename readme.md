@@ -1,4 +1,5 @@
-# Delta-onsite-task-3
+# Scientific-Calculator
+
 
 Create a calculator web app without using the eval function.
 
